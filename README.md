@@ -1,5 +1,5 @@
 # ASLtoEng
-Translating real time video of American Sign Language (ASL) to English by Audible Motion
+Translating real time video of American Sign Language (ASL) to English by Audible Motion.
 
 ## How it works
 We use a pretrained solution (mediapipe) to detect landmarks of the person from the video. These landmarks are then stacked into a frame stack and passed to a LSTM model to learn the ASL motion. Finally, the model produces the English translation.
